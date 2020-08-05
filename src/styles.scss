@@ -152,6 +152,11 @@ h4 {
   font-size: 1.4rem;
 }
 
+p {
+  line-height: 2.2rem;
+  font-size: 1.4rem;
+}
+
 img {
   height: auto;
   width: 100%;
@@ -249,5 +254,23 @@ text-align: left;
   .navbar {
     background-color: #1F2022;
     border: none;
+  }
+}
+
+
+.coin-page {
+  padding: 5rem;
+
+  .current-value {
+    margin-bottom: 4rem;
+
+    .value {
+      color: mediumseagreen;
+    }
+  }
+
+  .logo {
+    margin: 2rem 0;
+    width: 100px;
   }
 }
